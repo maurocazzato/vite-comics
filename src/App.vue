@@ -1,9 +1,11 @@
 <script>
 import appHeader from './components/appHeader.vue';
+import listCard from './components/listCard.vue';
 
 export default {
   components: {
     appHeader,
+    listCard,
   },
 };
 </script>
@@ -11,9 +13,8 @@ export default {
 <template>
   <appHeader />
   <main>
-    <div class="backgroundbox">
-      <!-- Contenuto del box qui -->
-    </div>
+    <div class="backgroundbox"></div>
+    <listCard />
   </main>
 </template>
 
