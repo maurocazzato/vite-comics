@@ -6,7 +6,6 @@ export default {
     },
     data() {
         return {
-            logoSrc: 'url-del-tuo-logo',
             menuItems: [
                 {
                     id: 1,
@@ -119,12 +118,12 @@ header {
         color: black;
         font-weight: bold;
         transition: color 0.3s;
-        /* Aggiunto per una transizione più fluida del cambio di colore */
+
     }
 
     .menucontainer .menulink:hover {
         color: rgba(2, 130, 249, 255);
-        /* Cambia il colore del testo al passaggio del mouse */
+
     }
 }
 </style>
