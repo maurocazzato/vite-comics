@@ -1,11 +1,13 @@
 <script>
 import appHeader from './components/appHeader.vue';
 import listCard from './components/listCard.vue';
+import listBlue from './components/listBlue.vue';
 
 export default {
   components: {
     appHeader,
     listCard,
+    listBlue,
   },
 };
 </script>
@@ -15,6 +17,7 @@ export default {
   <main>
     <div class="backgroundbox"></div>
     <listCard />
+    <listBlue />
   </main>
 </template>
 
