@@ -1,11 +1,11 @@
 <script>
-import appHeader from './components/appHeader.vue'
+import appHeader from './components/appHeader.vue';
 
 export default {
   components: {
-    appHeader
-  }
-}
+    appHeader,
+  },
+};
 </script>
 
 <template>
@@ -13,6 +13,6 @@ export default {
 </template>
 
 <style lang="scss">
-@use './styles/partials/variables' as *;
-@use './styles/general.scss' as *;
+@use './styles/partials/_variables' as *;
+@use './styles/_general.scss' as *;
 </style>
